@@ -718,7 +718,7 @@ elif modo_de_analise == "Lowa":
 
     api_key = os.getenv("OPENAI_API_KEY")
 
-    with open("/system_prompt.md", "r", encoding="utf-8") as file:
+    with open("system_prompt.md", "r", encoding="utf-8") as file:
         SYSTEM_PROMPT = file.read()
 
     SYSTEM_PROMPT_COM_DADOS = f"""
